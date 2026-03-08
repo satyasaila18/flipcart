@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flipkart Clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="scroll-indicator" id="scrollIndicator"></div>
+
+  <header class="site-header">
+    <div class="top-strip">
+      <p>Fresh arrivals live now | Free delivery on first order above Rs 499</p>
+    </div>
+
+    <nav class="main-nav">
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">Menu</button>
+      <a class="logo" href="#">
+        <span class="logo-main">Flipkart</span>
+        <span class="logo-sub">Explore Plus</span>
+      </a>
+      <form class="search-box" role="search">
+        <input type="search" placeholder="Search for products, brands and more">
+        <button type="submit">Search</button>
+      </form>
+      <div class="nav-actions">
+        <button class="action-btn">Login</button>
+        <button class="action-btn">Cart</button>
+        <button class="action-btn desktop-only">Become a Seller</button>
+      </div>
+    </nav>
+
+    <div class="mobile-drawer" id="mobileDrawer">
+      <a href="#">Home</a>
+      <a href="#">Top Offers</a>
+      <a href="#">Electronics</a>
+      <a href="#">Fashion</a>
+      <a href="#">Grocery</a>
+      <a href="#">Customer Care</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="categories" data-aos="fade-up">
+      <div class="section-head">
+        <h2>Shop by Category</h2>
+        <a href="#">View All</a>
+      </div>
+      <div class="category-grid" id="categoryGrid"></div>
+    </section>
+
+    <section class="hero" data-aos="zoom-in-up">
+      <button class="hero-arrow left" id="prevSlide" aria-label="Previous slide">&#8249;</button>
+      <div class="hero-slides" id="heroSlides">
+        <article class="hero-slide active">
+          <div class="hero-copy">
+            <p>Big Saving Days</p>
+            <h1>Upgrade Your Daily Essentials</h1>
+            <a href="#">Shop Now</a>
+          </div>
+        </article>
+        <article class="hero-slide">
+          <div class="hero-copy">
+            <p>Electronics Fiesta</p>
+            <h1>Latest Gadgets at Unbeatable Prices</h1>
+            <a href="#">Explore Deals</a>
+          </div>
+        </article>
+        <article class="hero-slide">
+          <div class="hero-copy">
+            <p>Home Revival</p>
+            <h1>Decor and Furniture for Every Mood</h1>
+            <a href="#">Design Your Space</a>
+          </div>
+        </article>
+      </div>
+      <button class="hero-arrow right" id="nextSlide" aria-label="Next slide">&#8250;</button>
+      <div class="hero-dots" id="heroDots"></div>
+    </section>
+
+    <section class="deals" data-aos="fade-up">
+      <div class="section-head">
+        <h2>Top Deals of the Day</h2>
+        <div class="timer" id="dealTimer">00:00:00</div>
+      </div>
+      <div class="deal-grid" id="dealGrid"></div>
+    </section>
+
+    <section class="promo-grid">
+      <article class="promo-card" data-aos="fade-right">
+        <p>Trend Pick</p>
+        <h3>Smart TV Carnival</h3>
+        <a href="#">Up to 55% off</a>
+      </article>
+      <article class="promo-card alt" data-aos="fade-left">
+        <p>Style Story</p>
+        <h3>Streetwear Collection</h3>
+        <a href="#">From Rs 299</a>
+      </article>
+    </section>
+
+    <section class="collections" id="collections"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <h4>About</h4>
+      <a href="#">Contact Us</a>
+      <a href="#">Careers</a>
+      <a href="#">Press</a>
+    </div>
+    <div>
+      <h4>Help</h4>
+      <a href="#">Payments</a>
+      <a href="#">Shipping</a>
+      <a href="#">Cancellation</a>
+    </div>
+    <div>
+      <h4>Policy</h4>
+      <a href="#">Return Policy</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Security</a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
