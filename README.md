@@ -1,8 +1,8 @@
 
 
-# 🛒 Flipkart Clone (Frontend)
+# 🛒 Flipkart Clone (Frontend): 
 
-A fully responsive **Flipkart-inspired e-commerce website** built using **HTML, CSS, and JavaScript**. This project replicates the core UI/UX of Flipkart, focusing on clean design, responsiveness, and interactive user experience.
+A fully responsive Flipkart-inspired e-commerce platform built from scratch using HTML5, CSS3, and Vanilla JavaScript. This project replicates the familiar, high-performance UI/UX of one of India's largest e-commerce giants, focusing on pixel-perfect layouts, intuitive navigation, and fluid user interactions across all device form factors.
 
 ---
 
